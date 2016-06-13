@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Core-AllTests">
+
+    <test name="All">
+        <packages>
+            <package name="com.tvd12.ezyfox.db.testing"/>
+        </packages>
+    </test>
+    
+    <test name="Queries">
+        <packages>
+            <package name="com.tvd12.ezyfox.db.testing.query"/>
+        </packages>
+    </test>
+    
+</suite>
