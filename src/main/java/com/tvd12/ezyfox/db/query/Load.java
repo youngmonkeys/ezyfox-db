@@ -27,7 +27,7 @@ public class Load implements Query {
     
     @SuppressWarnings("unchecked")
     public <T> T execute(Session session) {
-        return (T)session.load(entityClass, id);
+        return (T)session.byId(entityClass).load(id);
     }
     
     public Load id(Serializable id) {
